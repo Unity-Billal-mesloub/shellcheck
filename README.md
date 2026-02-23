@@ -67,19 +67,19 @@ Run `shellcheck yourscript` in your terminal for instant output, as seen above.
 
 You can see ShellCheck suggestions directly in a variety of editors.
 
-* Vim, through [ALE](https://github.com/Unity-Billal-mesloub/ale), [Neomake](https://github.com/neomake/neomake), or [Syntastic](https://github.com/scrooloose/syntastic):
+* Vim, through [ALE](https://github.com/Unity-Billal-mesloub/ale), [Neomake](https://github.com/Unity-Billal-mesloub/neomake), or [Syntastic](https://github.com/Unity-Billal-mesloub/syntastic):
 
 ![Screenshot of Vim showing inlined shellcheck feedback](doc/vim-syntastic.png).
 
-* Emacs, through [Flycheck](https://github.com/flycheck/flycheck) or [Flymake](https://github.com/federicotdn/flymake-shellcheck):
+* Emacs, through [Flycheck](https://github.com/Unity-Billal-mesloub/flycheck) or [Flymake](https://github.com/Unity-Billal-mesloub/flymake-shellcheck):
 
 ![Screenshot of emacs showing inlined shellcheck feedback](doc/emacs-flycheck.png).
 
-* Sublime, through [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter-shellcheck).
+* Sublime, through [SublimeLinter](https://github.com/Unity-Billal-mesloub/SublimeLinter-shellcheck).
 
-* Pulsar Edit (former Atom), through [linter-shellcheck-pulsar](https://github.com/pulsar-cooperative/linter-shellcheck-pulsar).
+* Pulsar Edit (former Atom), through [linter-shellcheck-pulsar](https://github.com/Unity-Billal-mesloub/linter-shellcheck-pulsar).
 
-* VSCode, through [vscode-shellcheck](https://github.com/timonwong/vscode-shellcheck).
+* VSCode, through [vscode-shellcheck](https://github.com/Unity-Billal-mesloub/vscode-shellcheck).
 
 * Most other editors, through [GCC error compatibility](shellcheck.1.md#user-content-formats).
 
@@ -110,10 +110,10 @@ Services and platforms that have ShellCheck pre-installed and ready to use:
 * [Codacy](https://www.codacy.com/)
 * [Code Climate](https://codeclimate.com/)
 * [Code Factor](https://www.codefactor.io/)
-* [Codety](https://www.codety.io/) via the [Codety Scanner](https://github.com/codetyio/codety-scanner)
+* [Codety](https://www.codety.io/) via the [Codety Scanner](https://github.com/Unity-Billal-mesloub/codety-scanner)
 * [CircleCI](https://circleci.com) via the [ShellCheck Orb](https://circleci.com/orbs/registry/orb/circleci/shellcheck)
 * [Github](https://github.com/features/actions) (only Linux)
-* [Trunk Code Quality](https://trunk.io/code-quality) (universal linter; [allows you to explicitly version your shellcheck install](https://github.com/trunk-io/plugins/blob/bcbb361dcdbe4619af51ea7db474d7fb87540d20/.trunk/trunk.yaml#L32)) via the [shellcheck plugin](https://github.com/trunk-io/plugins/blob/main/linters/shellcheck/plugin.yaml)
+* [Trunk Code Quality](https://trunk.io/code-quality) (universal linter; [allows you to explicitly version your shellcheck install](https://github.com/Unity-Billal-mesloub/plugins/blob/bcbb361dcdbe4619af51ea7db474d7fb87540d20/.trunk/trunk.yaml#L32)) via the [shellcheck plugin](https://github.com/Unity-Billal-mesloub/plugins/blob/main/linters/shellcheck/plugin.yaml)
 * [CodeRabbit](https://coderabbit.ai/)
 
 Most other services, including [GitLab](https://about.gitlab.com/), let you install
@@ -125,7 +125,7 @@ any surprise build breaks when a new version with new warnings is published.
 
 For customized filtering or reporting, ShellCheck can output simple JSON, CheckStyle compatible XML,
 GCC compatible warnings as well as human readable text (with or without ANSI colors). See the
-[Integration](https://github.com/koalaman/shellcheck/wiki/Integration) wiki page for more documentation.
+[Integration](https://github.com/Unity-Billal-mesloub/shellcheck/wiki/Integration) wiki page for more documentation.
 
 ## Installing
 
@@ -263,7 +263,7 @@ To run ShellCheck via [pre-commit](https://pre-commit.com/), add the hook to you
 
 ```
 repos:
--   repo: https://github.com/koalaman/shellcheck-precommit
+-   repo: https://github.com/Unity-Billal-mesloub/shellcheck-precommit
     rev: v0.11.0
     hooks:
     -   id: shellcheck
@@ -288,7 +288,7 @@ A simple installer may do something like:
 
 ```bash
 scversion="stable" # or "v0.4.7", or "latest"
-wget -qO- "https://github.com/koalaman/shellcheck/releases/download/${scversion?}/shellcheck-${scversion?}.linux.x86_64.tar.xz" | tar -xJv
+wget -qO- "https://github.com/Unity-Billal-mesloub/shellcheck/releases/download/${scversion?}/shellcheck-${scversion?}.linux.x86_64.tar.xz" | tar -xJv
 cp "shellcheck-${scversion}/shellcheck" /usr/bin/
 shellcheck --version
 ```
@@ -533,18 +533,18 @@ Alexander Tarasikov,
 
 Issues can be ignored via environmental variable, command line, individually or globally within a file:
 
-<https://github.com/koalaman/shellcheck/wiki/Ignore>
+<https://github.com/Unity-Billal-mesloub/shellcheck/wiki/Ignore>
 
 ## Reporting bugs
 
 Please use the GitHub issue tracker for any bugs or feature suggestions:
 
-<https://github.com/koalaman/shellcheck/issues>
+<https://github.com/Unity-Billal-mesloub/shellcheck/issues>
 
 ## Contributing
 
 Please submit patches to code or documentation as GitHub pull requests! Check
-out the [DevGuide](https://github.com/koalaman/shellcheck/wiki/DevGuide) on the
+out the [DevGuide](https://github.com/Unity-Billal-mesloub/shellcheck/wiki/DevGuide) on the
 ShellCheck Wiki.
 
 Contributions must be licensed under the GNU GPLv3.
@@ -554,11 +554,11 @@ The contributor retains the copyright.
 
 ShellCheck is licensed under the GNU General Public License, v3. A copy of this license is included in the file [LICENSE](LICENSE).
 
-Copyright 2012-2019, [Vidar 'koala_man' Holen](https://github.com/koalaman/) and contributors.
+Copyright 2012-2019, [Vidar 'koala_man' Holen](https://github.com/Unity-Billal-mesloub/) and contributors.
 
 Happy ShellChecking!
 
 ## Other Resources
 
-* The wiki has [long form descriptions](https://github.com/koalaman/shellcheck/wiki/Checks) for each warning, e.g. [SC2221](https://github.com/koalaman/shellcheck/wiki/SC2221).
-* ShellCheck does not attempt to enforce any kind of formatting or indenting style, so also check out [shfmt](https://github.com/mvdan/sh)!
+* The wiki has [long form descriptions](https://github.com/Unity-Billal-mesloub/shellcheck/wiki/Checks) for each warning, e.g. [SC2221](https://github.com/Unity-Billal-mesloub/shellcheck/wiki/SC2221).
+* ShellCheck does not attempt to enforce any kind of formatting or indenting style, so also check out [shfmt](https://github.com/Unity-Billal-mesloub/sh)!
