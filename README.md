@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/koalaman/shellcheck/actions/workflows/build.yml/badge.svg)](https://github.com/koalaman/shellcheck/actions/workflows/build.yml)
+[![Build Status](https://github.com/Unity-Billal-mesloub/shellcheck/actions/workflows/build.yml/badge.svg)](https://github.com/Unity-Billal-mesloub/shellcheck/actions/workflows/build.yml)
 
 
 # ShellCheck - A shell script static analysis tool
@@ -67,7 +67,7 @@ Run `shellcheck yourscript` in your terminal for instant output, as seen above.
 
 You can see ShellCheck suggestions directly in a variety of editors.
 
-* Vim, through [ALE](https://github.com/w0rp/ale), [Neomake](https://github.com/neomake/neomake), or [Syntastic](https://github.com/scrooloose/syntastic):
+* Vim, through [ALE](https://github.com/Unity-Billal-mesloub/ale), [Neomake](https://github.com/neomake/neomake), or [Syntastic](https://github.com/scrooloose/syntastic):
 
 ![Screenshot of Vim showing inlined shellcheck feedback](doc/vim-syntastic.png).
 
@@ -196,7 +196,7 @@ On Windows (via [chocolatey](https://chocolatey.org/packages/shellcheck)):
 C:\> choco install shellcheck
 ```
 
-Or Windows (via [winget](https://github.com/microsoft/winget-pkgs)):
+Or Windows (via [winget](https://github.com/Unity-Billal-mesloub/winget-pkgs)):
 
 ```cmd
 C:\> winget install --id koalaman.shellcheck
@@ -237,18 +237,18 @@ flox install shellcheck
 
 Alternatively, you can download pre-compiled binaries for the latest release here:
 
-* [Linux, x86_64](https://github.com/koalaman/shellcheck/releases/download/stable/shellcheck-stable.linux.x86_64.tar.xz) (statically linked)
-* [Linux, armv6hf](https://github.com/koalaman/shellcheck/releases/download/stable/shellcheck-stable.linux.armv6hf.tar.xz), i.e. Raspberry Pi (statically linked)
-* [Linux, aarch64](https://github.com/koalaman/shellcheck/releases/download/stable/shellcheck-stable.linux.aarch64.tar.xz) aka ARM64 (statically linked)
-* [macOS, aarch64](https://github.com/koalaman/shellcheck/releases/download/stable/shellcheck-stable.darwin.aarch64.tar.xz)
-* [macOS, x86_64](https://github.com/koalaman/shellcheck/releases/download/stable/shellcheck-stable.darwin.x86_64.tar.xz)
-* [Windows, x86](https://github.com/koalaman/shellcheck/releases/download/stable/shellcheck-stable.zip)
+* [Linux, x86_64](https://github.com/Unity-Billal-mesloub/shellcheck/releases/download/stable/shellcheck-stable.linux.x86_64.tar.xz) (statically linked)
+* [Linux, armv6hf](https://github.com/Unity-Billal-mesloub/shellcheck/releases/download/stable/shellcheck-stable.linux.armv6hf.tar.xz), i.e. Raspberry Pi (statically linked)
+* [Linux, aarch64](https://github.com/Unity-Billal-mesloub/shellcheck/releases/download/stable/shellcheck-stable.linux.aarch64.tar.xz) aka ARM64 (statically linked)
+* [macOS, aarch64](https://github.com/Unity-Billal-mesloub/shellcheck/releases/download/stable/shellcheck-stable.darwin.aarch64.tar.xz)
+* [macOS, x86_64](https://github.com/Unity-Billal-mesloub/shellcheck/releases/download/stable/shellcheck-stable.darwin.x86_64.tar.xz)
+* [Windows, x86](https://github.com/Unity-Billal-mesloub/shellcheck/releases/download/stable/shellcheck-stable.zip)
 
-or see the [GitHub Releases](https://github.com/koalaman/shellcheck/releases) for other releases
-(including the [latest](https://github.com/koalaman/shellcheck/releases/tag/latest) meta-release for daily git builds).
+or see the [GitHub Releases](https://github.com/Unity-Billal-mesloub/shellcheck/releases) for other releases
+(including the [latest](https://github.com/Unity-Billal-mesloub/shellcheck/releases/tag/latest) meta-release for daily git builds).
 
 There are currently no official binaries for Apple Silicon, but third party builds are available via
-[ShellCheck for Visual Studio Code](https://github.com/vscode-shellcheck/shellcheck-binaries/releases).
+[ShellCheck for Visual Studio Code](https://github.com/Unity-Billal-mesloub/shellcheck-binaries/releases).
 
 Distro packages already come with a `man` page. If you are building from source, it can be installed with:
 
